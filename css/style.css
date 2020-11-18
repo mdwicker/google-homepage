@@ -1,3 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+#apps {
+    width: 17px;
+    height: 17px;
+    opacity: 0.6;
+}
+
+#apps:hover {
+    opacity: 1;
+}
+
 #mainlogo {
     display: block;
     margin-left: auto;
