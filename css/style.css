@@ -26,16 +26,16 @@ nav {
     opacity: 1;
 }
 
-#mainlogo {
+#logo-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 292px;
+    width: 272px;
     height: auto;
 }
 
 #logo {
-    padding-top: 109px;
+    padding-top: 135px;
 }
 
 #search-box {
