@@ -1,13 +1,25 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: 0.75;
+    margin-left: 15px;
 }
 
 #apps {
     width: 17px;
     height: 17px;
-    opacity: 0.6;
 }
 
 #apps:hover {
