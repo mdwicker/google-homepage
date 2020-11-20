@@ -86,8 +86,8 @@ nav {
 
 #search-box {
     display: flex;
-    width: 582px;
-    height: 44px;
+    width: 560px;
+    height: 34px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -95,9 +95,37 @@ nav {
     border-width: 1px;
     border-color: rgb(223, 225, 229);
     border-radius: 24px;
+    padding: 5px 8px 5px 14px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #search-box:hover {
     border-color: rgba(223, 225, 229, 0);
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
+
+#search-icon {
+    width: 17.5px;
+    height: auto;
+    opacity: 0.45;
+    padding-right: 13px;
+}
+
+#search-input {
+    flex-grow: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: none;
+    border: none;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+#mic {
+    height: 20px;
+    width: auto;
+    margin: 0px 12px 0px 8px;
+}
+
+
