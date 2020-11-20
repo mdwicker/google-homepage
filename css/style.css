@@ -6,24 +6,70 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 10px;
-    align-items: center;
+    padding: 14px 10px;
 }
 
 .nav-link {
     font-size: 13px;
     font-family: arial, sans-serif;
-    opacity: 0.75;
     margin-left: 15px;
 }
 
+.left-nav-text {
+    opacity: 0.75;
+}
+
+.left-nav-text:hover {
+    text-decoration: underline;
+}
+
+#left-nav {
+    display: flex;
+    align-items: center;
+}
+
+#right-nav {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.right-nav-text {
+    opacity: 0.87;
+}
+
+.right-nav-text:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
 #apps {
-    width: 17px;
-    height: 17px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.55;
+    margin: 9px 7px 6px 7px;
 }
 
 #apps:hover {
     opacity: 1;
+}
+
+
+#sign-in {
+    width: 69.34px;
+    height: 30px;
+    padding: 0px 10px;
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: 700;
+    color: white;
+    line-height: 28px;
+    font-size: 13px;
+}
+
+#sign-in:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
 
 #logo-img {
