@@ -1,8 +1,6 @@
 a {
     text-decoration: none;
-    color: black;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -13,6 +11,7 @@ nav {
     font-size: 13px;
     font-family: arial, sans-serif;
     margin-left: 15px;
+    color: black;
 }
 
 .left-nav-text {
@@ -163,5 +162,21 @@ nav {
 
 #feeling-lucky {
     width: 142.5px;
+}
+
+#language {
+    margin-top: 13px;
+}
+
+p.centered {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    color: rgb(32, 33, 36);
+}
+
+a.ling-link {
+    margin-left: 3px;
 }
 
